@@ -1,0 +1,49 @@
+@media (max-width:640px){
+    header{
+        padding-inline: 14px;
+
+    }
+    .header_ul{
+        display: none;
+    }
+.burger{display: block;}
+
+
+.section1{
+    padding: 125px 40px;
+}
+
+h2{
+    font-size: 35px;
+    line-height: 45px;
+}
+
+.section1_text {
+    font-size: 15px;
+    line-height: 24px;
+}
+
+}
+
+@media (max-width:600px){
+ h3{
+        font-size: 20px;
+    }
+
+    h4{
+    color: #000;
+       font-size: 19px; 
+       line-height: 20px;
+    }
+
+    .articles{
+        flex-direction: column;
+    }
+
+    .fa-solid{
+        font-size: 70%;
+    }
+    .icon_text{
+        font-size: 13px;
+    }
+}
